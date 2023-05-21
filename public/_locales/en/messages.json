@@ -1,0 +1,121 @@
+{
+  "appName": {
+    "message": "Tab Group Keeper",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "Tab Group Keeper",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "Easily manage browser tab groups.",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "Tab Group Keeper",
+    "description": "The title of the browser action button"
+  },
+
+  "popupCurrentTabs": {
+    "message": "Current Tabs"
+  },
+  "popupSavedGroups": {
+    "message": "Saved Groups"
+  },
+  "popupSetting": {
+    "message": "Setting"
+  },
+  "popupSupport": {
+    "message": "Support"
+  },
+
+  "popupSaveGroup": {
+    "message": "Save Group"
+  },
+  "popupSaveAndCloseGroup": {
+    "message": "Save and Close Group"
+  },
+  "popupCloseGroup": {
+    "message": "Close Group"
+  },
+  "popupSaveTab": {
+    "message": "Save Tab"
+  },
+  "popupSaveAndCloseTab": {
+    "message": "Save and Close Tab"
+  },
+  "popupCloseTab": {
+    "message": "Close Tab"
+  },
+  "popupHelp": {
+    "message": "Help"
+  },
+  "expand": {
+    "message": "Expand"
+  },
+  "collapse": {
+    "message": "Collapse"
+  },
+  "pinned": {
+    "message": "Pinned"
+  },
+  "unpinned": {
+    "message": "UnPinned"
+  },
+  "saveCurrentAllTabGroups": {
+    "message": "save current all tab groups"
+  },
+  "saveCurrentAllTabs": {
+    "message": "save current all tabs"
+  },
+  "trushAllSavedTabs": {
+    "message": "trush all saved tabs"
+  },
+
+  "notifyAutoSaveTabGroupsSuccessTitle": {
+    "message": "[TabGroupKeeper] Complete!"
+  },
+  "notifyAutoSaveTabGroupsSuccessMessage": {
+    "message": "auto save tab groups done!"
+  },
+  "notifyAutoSaveTabGroupsErrorTitle": {
+    "message": "[TabGroupKeeper] Failed.."
+  },
+  "notifyAutoSaveTabGroupsErrorMessage": {
+    "message": "something error occurred.."
+  },
+
+  "settingAutoSaveTabGroupTitle": {
+    "message": "Auto Save Tab Group(per minutes)"
+  },
+  "settingAutoSaveTabGroupEnable": {
+    "message": "Enable auto save tab group"
+  },
+  "settingAutoSaveTabGroupNotify": {
+    "message": "Notify auto save tab group"
+  },
+  "settingAutoSaveTabGroupCountOfHistory": {
+    "message": "Count of history for keeping saved tab group"
+  },
+
+  "supportDonationTitle": {
+    "message": "Requests for donations"
+  },
+  "supportDonationDescription": {
+    "message": "If you like this extension and support it, please buy us a coffee here!"
+  },
+  "supportDonationBuyACoffee": {
+    "message": "Buy a Coffee!"
+  },
+
+  "supportRequestTitle": {
+    "message": "Improvement Request"
+  },
+  "supportRequestDescription": {
+    "message": "if you have any questions, find bugs, or ideas for improving this app, please comment review this extension page."
+  },
+
+  "confirmTrushAllSavedTab": {
+    "message": "Do you trush All Saved Tabs?"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "appName": {
+    "message": "Tab Group Keeper",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "Tab Group Keeper",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "簡単にブラウザのタブグループを管理することができます。",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "Tab Group Keeper",
+    "description": "The title of the browser action button"
+  },
+
+  "popupCurrentTabs": {
+    "message": "現在開いているタブ"
+  },
+  "popupSavedGroups": {
+    "message": "保存したグループ/タブ"
+  },
+  "popupSetting": {
+    "message": "設定"
+  },
+  "popupSupport": {
+    "message": "サポート"
+  },
+
+  "popupSaveGroup": {
+    "message": "グループ保存"
+  },
+  "popupSaveAndCloseGroup": {
+    "message": "グループを保存して閉じる"
+  },
+  "popupCloseGroup": {
+    "message": "グループを閉じる"
+  },
+  "popupSaveTab": {
+    "message": "タブを保存"
+  },
+  "popupSaveAndCloseTab": {
+    "message": "タブを保存して閉じる"
+  },
+  "popupCloseTab": {
+    "message": "タブを閉じる"
+  },
+  "popupHelp": {
+    "message": "ヘルプ"
+  },
+  "expand": {
+    "message": "開く"
+  },
+  "collapse": {
+    "message": "閉じる"
+  },
+  "pinned": {
+    "message": "ピン止めする"
+  },
+  "unpinned": {
+    "message": "ピン止め外す"
+  },
+  "saveCurrentAllTabGroups": {
+    "message": "全てのタブグループを保存"
+  },
+  "saveCurrentAllTabs": {
+    "message": "全てのタブグループ/タブを保存"
+  },
+  "trushAllSavedTabs": {
+    "message": "全ての保存したタブグループ/タブを削除"
+  },
+
+  "notifyAutoSaveTabGroupsSuccessTitle": {
+    "message": "[TabGroupKeeper] 完了!"
+  },
+  "notifyAutoSaveTabGroupsSuccessMessage": {
+    "message": "タブグループの自動保存が完了しました!"
+  },
+  "notifyAutoSaveTabGroupsErrorTitle": {
+    "message": "[TabGroupKeeper] 失敗.."
+  },
+  "notifyAutoSaveTabGroupsErrorMessage": {
+    "message": "タブグループの自動保存で問題が発生しました.."
+  },
+
+  "settingAutoSaveTabGroupTitle": {
+    "message": "タブグループ自動保存設定(1分単位指定)"
+  },
+  "settingAutoSaveTabGroupEnable": {
+    "message": "タブグループ自動保存の有効化"
+  },
+  "settingAutoSaveTabGroupNotify": {
+    "message": "タブグループ自動保存時に通知設定"
+  },
+  "settingAutoSaveTabGroupCountOfHistory": {
+    "message": "タブグループ履歴保存件数"
+  },
+
+  "supportDonationTitle": {
+    "message": "サポート依頼"
+  },
+  "supportDonationDescription": {
+    "message": "もしこの拡張機能が気に入っていただけたら、以下よりコーヒーを奢ってくださると改善/開発の励みになります!"
+  },
+  "supportDonationBuyACoffee": {
+    "message": "Buy a Coffee!"
+  },
+
+  "supportRequestTitle": {
+    "message": "改善/その他要望"
+  },
+  "supportRequestDescription": {
+    "message": "質問や改善要望、不具合などがありましたら、この拡張機能のコメント欄でお知らせいただけると嬉しいです。"
+  },
+
+  "confirmTrushAllSavedTab": {
+    "message": "全ての保存したタブ/タブグループを削除しますか?"
+  }
+}
