@@ -45,7 +45,7 @@ export async function getManifest() {
   const manifest = await getSharedManifest();
   const browserAction = {
     default_icon: './assets/icon-256.png',
-    default_popup: './dist/popup/index.html',
+    // default_popup: './dist/popup/index.html',
   };
   const permissions = {
     type: ['tabs', 'storage', 'tabGroups', 'favicon', 'alarms', 'notifications'],
@@ -77,9 +77,9 @@ export async function getManifest() {
     ...manifest,
     manifest_version: 3,
     action: browserAction,
-    background: {
-      service_worker: './dist/background/index.global.js',
-    },
+    // background: {
+    //   service_worker: './dist/background/index.global.js',
+    // },
     permissions: permissions.type,
     // host_permissions: permissions.host,
     web_accessible_resources: [
