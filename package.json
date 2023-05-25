@@ -1,10 +1,10 @@
 {
   "name": "__MSG_appName__",
   "displayName": "__MSG_appName__",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@7.29.0",
-  "description": "Easily manage browser tab groups.",
+  "description": "Qiitaの記事ページに投稿者の情報を表示する拡張機能です！",
   "scripts": {
     "dev": "npm run clear && cross-env NODE_ENV=development run-p dev:*",
     "dev:prepare": "esno scripts/prepare.ts",

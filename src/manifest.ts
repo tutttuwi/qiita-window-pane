@@ -14,7 +14,7 @@ const getSharedManifest = async () => {
     // name: 'Tab Group Keeper',
     name: pkg.name,
     version: pkg.version,
-    default_locale: 'en',
+    default_locale: 'ja',
     description: pkg.description,
     // options_ui: {
     //   page: './dist/options/index.html',
@@ -31,11 +31,11 @@ const getSharedManifest = async () => {
         js: ['./dist/contentScripts/index.global.js'],
       },
     ],
-    content_security_policy: {
-      extension_pages: "script-src 'self'; object-src 'self';",
-      sandbox:
-        "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';",
-    },
+    // content_security_policy: {
+    //   extension_pages: "script-src 'self'; object-src 'self';",
+    //   sandbox:
+    //     "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';",
+    // },
   };
 
   return manifest;
@@ -47,10 +47,10 @@ export async function getManifest() {
     default_icon: './assets/icon-256.png',
     // default_popup: './dist/popup/index.html',
   };
-  const permissions = {
-    type: ['tabs', 'storage', 'tabGroups', 'favicon', 'alarms', 'notifications'],
-    host: ['http://*/', 'https://*/'],
-  };
+  // const permissions = {
+  //   type: ['tabs', 'storage', 'tabGroups', 'favicon', 'alarms', 'notifications'],
+  //   host: ['http://*/', 'https://*/'],
+  // };
 
   // v2はコメントアウト
   // if (isDev) {
@@ -80,13 +80,12 @@ export async function getManifest() {
     // background: {
     //   service_worker: './dist/background/index.global.js',
     // },
-    permissions: permissions.type,
+    // permissions: permissions.type,
     // host_permissions: permissions.host,
     web_accessible_resources: [
       {
-        resources: ['assets/*', 'dist/*', '_favicon/*'],
+        resources: ['assets/*', 'dist/*'],
         matches: ['http://*/*', 'https://*/*'],
-        extension_ids: ['*'],
       },
     ],
     // };
